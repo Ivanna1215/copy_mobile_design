@@ -1,0 +1,76 @@
+.container {
+    // width: 1920px;
+    // height:1072px;
+    // background: url(../img/man.png) center;
+    // background-size: cover;
+    margin: 0 auto;
+    border:2px solid red;
+    // position: absolute;
+
+
+
+    .icon_1 {
+        // width: 58px;
+        // height: 58px;
+         border: 2px solid red;
+        // margin: 300px auto 94px auto;
+       text-align: center;
+       margin: 0 auto;
+    
+    } 
+    .title_1 {
+        // width: 591px;
+        // height: 150px;
+        font-size: 54px;
+    // letter-spacing: 9px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px auto;
+    border: 2px solid red;
+    // margin-bottom:25px;
+    @media only screen  and (max-width: 768px) {
+        font-size: 25px;
+     }
+    }
+    
+    .text {
+        border: 2px solid blue; 
+        // margin-bottom: 200px;
+        @media only screen  and (max-width: 768px) {
+            font-size: 12px;
+         }
+    
+    
+     .text_1 {
+        // width: 589px;
+    // height: 30px;
+    font-size: 15px;
+    // letter-spacing: 1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid blue;
+    @media only screen  and (max-width: 768px) {
+        font-size: 12px;
+        text-align: left;
+     }
+
+
+    }
+    } 
+    .mouse {
+        border: 2px solid green; 
+        // width: 23px;
+    height: 37px;
+    border-radius: 2px;
+    // margin-bottom: 50px;
+    }
+ }
+
+  
