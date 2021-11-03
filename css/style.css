@@ -1,39 +1,3 @@
-.about {
-  height: 450px;
-  background-color: #FFFFFF;
-  /* border: 2px solid red; */
-  margin: 0 auto;
-  padding-top: 80px; }
-  .about .about-container {
-    width: 60%;
-    height: 80%;
-    margin: 0 auto;
-    position: relative; }
-    .about .about-container .ab-title {
-      /* border: 2px solid blue; */
-      font-size: 33px;
-      letter-spacing: 5px;
-      color: #3c3c3c;
-      font-weight: 700;
-      font-family: "Lato";
-      text-align: center;
-      margin: 0 auto;
-      position: absolute;
-      right: 50%;
-      transform: translate(50%, -50%);
-      background-color: white; }
-    .about .about-container .ab-text {
-      /* border: 2px solid rebeccapurple; */
-      height: 250px;
-      font-size: 16px;
-      line-height: 24px;
-      color: #3c3c3c;
-      font-weight: 300;
-      font-family: "Lato";
-      text-align: center;
-      margin: 0 auto;
-      padding-top: 50px; }
-
 .contact {
   width: 1920px;
   /* border: 2px solid red; */
@@ -82,31 +46,40 @@
     right: 50%;
     transform: translate(50%, 0); }
 
-.container {
-  margin: 0 auto;
-  border: 2px solid red; }
-  .container .icon_1 {
-    border: 2px solid red;
+.start {
+  background: url(./img/man.png) center;
+  background-size: cover;
+  position: relative; }
+  .start .container .icon_1 {
     text-align: center;
-    margin: 0 auto; }
-  .container .title_1 {
+    position: absolute;
+    top: 50px;
+    right: 50%;
+    transform: translate(50%, 0); }
+  .start .container .title_1 {
     font-size: 54px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Lato";
     text-align: center;
     text-transform: uppercase;
-    margin: 50px auto;
-    border: 2px solid red; }
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    transform: translate(50%, 0); }
     @media only screen and (max-width: 768px) {
-      .container .title_1 {
-        font-size: 25px; } }
-  .container .text {
-    border: 2px solid blue; }
+      .start .container .title_1 {
+        font-size: 25px;
+        top: 30%; } }
+  .start .container .text {
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+    transform: translate(50%, 0); }
     @media only screen and (max-width: 768px) {
-      .container .text {
-        font-size: 12px; } }
-    .container .text .text_1 {
+      .start .container .text {
+        bottom: 20%; } }
+    .start .container .text .text_1 {
       font-size: 15px;
       line-height: 29px;
       color: #ffffff;
@@ -114,15 +87,16 @@
       font-family: "Lato";
       text-align: center;
       text-transform: uppercase;
-      border: 2px solid blue; }
+      margin: 0 auto; }
       @media only screen and (max-width: 768px) {
-        .container .text .text_1 {
+        .start .container .text .text_1 {
           font-size: 12px;
-          text-align: left; } }
-  .container .mouse {
-    border: 2px solid green;
-    height: 37px;
-    border-radius: 2px; }
+          text-align: center; } }
+  .start .container .final {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0); }
 
 @font-face {
   font-family: "Lato";
@@ -690,31 +664,40 @@ footer {
         margin-left: 50px;
         margin-bottom: 40px; }
 
-.container {
-  margin: 0 auto;
-  border: 2px solid red; }
-  .container .icon_1 {
-    border: 2px solid red;
+.start {
+  background: url(./img/man.png) center;
+  background-size: cover;
+  position: relative; }
+  .start .container .icon_1 {
     text-align: center;
-    margin: 0 auto; }
-  .container .title_1 {
+    position: absolute;
+    top: 50px;
+    right: 50%;
+    transform: translate(50%, 0); }
+  .start .container .title_1 {
     font-size: 54px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Lato";
     text-align: center;
     text-transform: uppercase;
-    margin: 50px auto;
-    border: 2px solid red; }
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    transform: translate(50%, 0); }
     @media only screen and (max-width: 768px) {
-      .container .title_1 {
-        font-size: 25px; } }
-  .container .text {
-    border: 2px solid blue; }
+      .start .container .title_1 {
+        font-size: 25px;
+        top: 30%; } }
+  .start .container .text {
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+    transform: translate(50%, 0); }
     @media only screen and (max-width: 768px) {
-      .container .text {
-        font-size: 12px; } }
-    .container .text .text_1 {
+      .start .container .text {
+        bottom: 20%; } }
+    .start .container .text .text_1 {
       font-size: 15px;
       line-height: 29px;
       color: #ffffff;
@@ -722,51 +705,16 @@ footer {
       font-family: "Lato";
       text-align: center;
       text-transform: uppercase;
-      border: 2px solid blue; }
+      margin: 0 auto; }
       @media only screen and (max-width: 768px) {
-        .container .text .text_1 {
+        .start .container .text .text_1 {
           font-size: 12px;
-          text-align: left; } }
-  .container .mouse {
-    border: 2px solid green;
-    height: 37px;
-    border-radius: 2px; }
-
-.about {
-  height: 450px;
-  background-color: #FFFFFF;
-  /* border: 2px solid red; */
-  margin: 0 auto;
-  padding-top: 80px; }
-  .about .about-container {
-    width: 60%;
-    height: 80%;
-    margin: 0 auto;
-    position: relative; }
-    .about .about-container .ab-title {
-      /* border: 2px solid blue; */
-      font-size: 33px;
-      letter-spacing: 5px;
-      color: #3c3c3c;
-      font-weight: 700;
-      font-family: "Lato";
-      text-align: center;
-      margin: 0 auto;
-      position: absolute;
-      right: 50%;
-      transform: translate(50%, -50%);
-      background-color: white; }
-    .about .about-container .ab-text {
-      /* border: 2px solid rebeccapurple; */
-      height: 250px;
-      font-size: 16px;
-      line-height: 24px;
-      color: #3c3c3c;
-      font-weight: 300;
-      font-family: "Lato";
-      text-align: center;
-      margin: 0 auto;
-      padding-top: 50px; }
+          text-align: center; } }
+  .start .container .final {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0); }
 
 .container {
   height: 488px;
