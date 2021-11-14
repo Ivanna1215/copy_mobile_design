@@ -1,3 +1,50 @@
+.about {
+  background-color: #FFFFFF;
+  border: 2px solid red;
+  margin: 0 auto;
+  padding-top: 80px;
+  height: 700px;
+  border: 3px solid gray;
+  position: relative; }
+  @media only screen and (max-width: 320px) {
+    .about {
+      width: 200px; } }
+  @media only screen and (max-width: 768px) {
+    .about {
+      width: 650px; } }
+  @media only screen and (max-width: 1200px) {
+    .about {
+      width: 1100px; } }
+  .about .ab-title {
+    /* border: 2px solid blue; */
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: white; }
+  .about .ab-text {
+    /* border: 2px solid rebeccapurple; */
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px; }
+    @media only screen and (max-width: 320px) {
+      .about .ab-text {
+        font-size: 12px; } }
+    @media only screen and (max-width: 320px) {
+      .about .ab-text {
+        font-size: 14px; } }
+
 .contact {
   width: 1920px;
   /* border: 2px solid red; */
@@ -716,13 +763,57 @@ footer {
     left: 50%;
     transform: translate(-50%, 0); }
 
+.about {
+  background-color: #FFFFFF;
+  border: 2px solid red;
+  margin: 0 auto;
+  padding-top: 80px;
+  height: 700px;
+  border: 3px solid gray;
+  position: relative; }
+  @media only screen and (max-width: 320px) {
+    .about {
+      width: 200px; } }
+  @media only screen and (max-width: 768px) {
+    .about {
+      width: 650px; } }
+  @media only screen and (max-width: 1200px) {
+    .about {
+      width: 1100px; } }
+  .about .ab-title {
+    /* border: 2px solid blue; */
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: white; }
+  .about .ab-text {
+    /* border: 2px solid rebeccapurple; */
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px; }
+    @media only screen and (max-width: 320px) {
+      .about .ab-text {
+        font-size: 12px; } }
+    @media only screen and (max-width: 320px) {
+      .about .ab-text {
+        font-size: 14px; } }
+
 .container {
-  height: 488px;
-  background: url(../img/she.jpg.png) center;
   margin: 0 auto;
   /* border: 2px solid red; */
-  box-sizing: border-box;
-  padding-top: 10px; }
+  box-sizing: border-box; }
   .container fieldset {
     border: 3px solid white;
     width: 60%;
@@ -1047,12 +1138,9 @@ footer {
   src: url("../fonts/Lato-Regular.ttf"); }
 
 .container {
-  height: 488px;
-  background: url(../img/she.jpg.png) center;
   margin: 0 auto;
   /* border: 2px solid red; */
-  box-sizing: border-box;
-  padding-top: 10px; }
+  box-sizing: border-box; }
   .container fieldset {
     border: 3px solid white;
     width: 60%;
