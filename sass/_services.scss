@@ -1,0 +1,46 @@
+.services {
+    
+    background: url(../img/she.jpg.png) center;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+    // padding-top: 10px;
+
+   
+       
+ .wrapper {
+     border: 2px solid gray;
+     margin: 50px auto;
+     position: relative;
+    .title {
+        font-size: 34px;
+letter-spacing: 5px;
+background: url(../img/she.jpg.png) top;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+position: absolute;
+top:0;
+right: 50%;
+transform: translate(50%,-50%);
+// width: 308px;
+/* margin-bottom: 65px; */
+}
+.serv-text {
+// width: 553px;
+/* height: 280px; */
+font-size: 16px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Lato";
+text-align: center; 
+/* border: 3px solid greenyellow; */
+margin:20px auto;
+}
+ }
+    
+
+    }
+       
