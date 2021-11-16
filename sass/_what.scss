@@ -1,0 +1,156 @@
+.what {
+    // width: 1920px;
+    // height: 1200px;
+    margin: 0 auto;
+    //  border: 3px solid greenyellow; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .whcont {
+        // border: 3px solid #3E3E3E;
+        width: 60%;
+        margin: 0 auto;
+        .wh-title {
+            font-size: 34px;
+            // letter-spacing: 5px;
+            color: #3c3c3c;
+            font-weight: 700;
+            font-family: "Lato";
+            text-align: center;
+            text-transform: uppercase;
+            //  border: 3px solid #3E3E3E; 
+            background-color:white;
+            // width: 375px;
+            @media only screen  and (max-width: 768px) {
+                font-size: 20px;
+             }
+    
+        }
+        .part {
+            //  border: 2px solid blue; 
+            text-align: center;
+            margin-top: 100px;
+            /* padding-bottom: 50px; */
+            @media only screen  and (max-width: 768px) {
+                margin-top: 50px;
+             }
+        
+        .wh-img {
+           padding: 50px auto;
+            @media only screen  and (max-width: 768px) {
+               padding-bottom:20px;
+             }
+        }
+        .wh-name {
+            font-size: 20px;
+letter-spacing: 3px;
+/* color: #3c3c3c; */
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+padding-bottom: 40px;
+@media only screen  and (max-width: 768px) {
+    padding-bottom:20px;
+  }
+        }
+
+        .wh-text {
+            // width: 553px;
+            /* height: 324px; */
+            font-size: 14px;
+            // line-height: 26px;
+            color: #3c3c3c;
+            font-weight: 300;
+            font-family: "Lato";
+            text-align: center;
+            // border: 2px solid red; 
+            margin: 0 auto;
+             }
+            }
+
+            .part {
+                // border: 2px solid blue; 
+                text-align: center;
+                margin-top: 100px;
+                /* padding-bottom: 50px; */
+                @media only screen  and (max-width: 768px) {
+                    margin-top: 20px;
+                  }
+            
+            .wh-img {
+                padding-bottom: 40px;
+                @media only screen  and (max-width: 768px) {
+                    padding-bottom:10px;
+                  }
+    
+            }
+            .wh-name {
+                font-size: 20px;
+    letter-spacing: 3px;
+    /* color: #3c3c3c; */
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    padding-bottom: 40px;
+    @media only screen  and (max-width: 768px) {
+        padding-bottom:10px;
+      }
+            }
+    
+            .wh-text {
+                // width: 553px;
+                /* height: 324px; */
+                font-size: 14px;
+                line-height: 26px;
+                color: #3c3c3c;
+                font-weight: 300;
+                font-family: "Lato";
+                text-align: center;
+                // border: 2px solid red; 
+                margin: 0 auto;
+                 }
+                }
+
+                .part {
+                    //  border: 2px solid blue; 
+                    text-align: center;
+                    margin-top: 100px;
+                    /* padding-bottom: 50px; */
+                    @media only screen  and (max-width: 768px) {
+                        margin-top: 20px;
+                      }
+                .wh-img {
+                    padding-bottom: 40px;
+                    @media only screen  and (max-width: 768px) {
+                        padding-bottom:20px;
+                      }
+        
+                }
+                .wh-name {
+                    font-size: 20px;
+        letter-spacing: 3px;
+        /* color: #3c3c3c; */
+        font-weight: 700;
+        font-family: "Lato";
+        text-align: center;
+        padding-bottom: 40px;
+        @media only screen  and (max-width: 768px) {
+            padding-bottom:20px;
+          }
+                }
+        
+                .wh-text {
+                    // width: 553px;
+                    /* height: 324px; */
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #3c3c3c;
+                    font-weight: 300;
+                    font-family: "Lato";
+                    text-align: center;
+                    /* border: 2px solid red; */
+                    margin: 0 auto;
+                     }
+                    }
+    }
+    }
