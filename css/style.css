@@ -222,6 +222,93 @@
         /* border: 2px solid red; */
         margin: 0 auto; }
 
+.gallery {
+  height: 484px;
+  margin: 0 auto; }
+  .gallery .topworkz {
+    height: 237px;
+    background: url(../img/1.png);
+    background-size: cover;
+    margin-bottom: 20px; }
+    .gallery .topworkz .gal-name {
+      font-size: 34px;
+      letter-spacing: 5px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Lato";
+      text-align: center;
+      text-transform: uppercase;
+      /* border: 2px solid blue; */ }
+  .gallery .joint {
+    height: 237px;
+    background: url(../img/2.png);
+    margin-bottom: 20px; }
+    .gallery .joint .gal-name {
+      font-size: 34px;
+      letter-spacing: 5px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Lato";
+      text-align: center;
+      text-transform: uppercase;
+      /* border: 2px solid blue; */ }
+  .gallery .market {
+    height: 237px;
+    background: url(../img/3.png);
+    /* box-sizing: border-box; */
+    margin-bottom: 20px; }
+    .gallery .market .gal-name {
+      font-size: 34px;
+      letter-spacing: 5px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Lato";
+      text-align: center;
+      text-transform: uppercase;
+      /* border: 2px solid blue; */ }
+  .gallery .work {
+    height: 237px;
+    background: url(../img/4.png);
+    margin-bottom: 20px; }
+    .gallery .work .gal-name {
+      font-size: 34px;
+      letter-spacing: 5px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Lato";
+      text-align: center;
+      text-transform: uppercase;
+      /* border: 2px solid blue; */ }
+  .gallery .lab {
+    height: 237px;
+    background: url(../img/5.png);
+    /* border: 2px solid red; */
+    /* box-sizing: border-box; */
+    margin-bottom: 20px; }
+    .gallery .lab .gal-name {
+      font-size: 34px;
+      letter-spacing: 5px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Lato";
+      text-align: center;
+      text-transform: uppercase;
+      /* border: 2px solid blue; */ }
+  .gallery .Kyiv {
+    height: 237px;
+    background: url(../img/6.png);
+    /* border: 2px solid red; */
+    margin-bottom: 20px; }
+    .gallery .Kyiv .gal-name {
+      font-size: 34px;
+      letter-spacing: 5px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Lato";
+      text-align: center;
+      text-transform: uppercase;
+      /* border: 2px solid blue; */ }
+
 @font-face {
   font-family: "Lato";
   src: url("./fonts/Lato-Regular.ttf"); }
