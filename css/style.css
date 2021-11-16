@@ -1,5 +1,43 @@
+.start {
+  background: url(../img/man.png) center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto; }
+  .start .icon_1 {
+    text-align: center;
+    margin: 50px; }
+  .start .title_1 {
+    font-size: 54px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase; }
+    @media only screen and (max-width: 768px) {
+      .start .title_1 {
+        font-size: 25px; } }
+  .start .text_1 {
+    font-size: 15px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto; }
+    @media only screen and (max-width: 768px) {
+      .start .text_1 {
+        font-size: 12px;
+        text-align: center; } }
+  .start .final {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
 .about {
-  border: 3px solid red;
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px; }
