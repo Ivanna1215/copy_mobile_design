@@ -1,0 +1,30 @@
+footer {
+    // border: 2px solid blue;
+    margin: 50px auto;
+
+   .wrapper{
+    //  border: 2px solid red;
+       margin: 0 auto;
+       text-align: center;
+      
+       @media only screen  and (min-width: 768px) {
+        text-align: right;
+        margin-bottom: 5px;
+      }
+   }
+
+    .foot-text {
+        font-size: 14px;
+        color: #3c3c3c;
+        font-weight: 400;
+        font-family: "Lato";
+        // border: 2px solid green;
+       
+        margin-bottom: 15px;
+        @media only screen  and (min-width: 768px) {
+           margin-top: 10px;
+          
+         }
+
+    }
+}

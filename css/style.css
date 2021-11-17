@@ -69,8 +69,7 @@
     font-weight: 300;
     font-family: "Lato";
     text-align: center;
-    margin: 0 auto;
-    padding-top: 50px; }
+    margin: 50px auto; }
     @media only screen and (max-width: 320px) {
       .about .ab-text {
         font-size: 12px; } }
@@ -356,6 +355,25 @@
       margin: 0 auto;
       color: white;
       text-transform: uppercase; }
+
+footer {
+  margin: 50px auto; }
+  footer .wrapper {
+    margin: 0 auto;
+    text-align: center; }
+    @media only screen and (min-width: 768px) {
+      footer .wrapper {
+        text-align: right;
+        margin-bottom: 5px; } }
+  footer .foot-text {
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-bottom: 15px; }
+    @media only screen and (min-width: 768px) {
+      footer .foot-text {
+        margin-top: 10px; } }
 
 @font-face {
   font-family: "Lato";
