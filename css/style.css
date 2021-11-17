@@ -309,6 +309,54 @@
       text-transform: uppercase;
       /* border: 2px solid blue; */ }
 
+.contact {
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .contact .container {
+    border: 3px solid gray;
+    margin: 0 auto;
+    position: relative;
+    width: 80%; }
+  .contact .cont-title {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform: translate(50%, -50%);
+    background-color: white; }
+    @media only screen and (max-width: 320px) {
+      .contact .cont-title {
+        font-size: 18px;
+        letter-spacing: 1px; } }
+  .contact .cont-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+    /* border: 2px solid red; */
+    padding-top: 50px;
+    margin: 0 auto; }
+  .contact .wrap {
+    margin: 30px auto;
+    text-align: center; }
+    .contact .wrap .join-but {
+      width: 80%;
+      background-color: #3c3c3c;
+      margin: 0 auto;
+      color: white;
+      text-transform: uppercase; }
+
 @font-face {
   font-family: "Lato";
   src: url("./fonts/Lato-Regular.ttf"); }
